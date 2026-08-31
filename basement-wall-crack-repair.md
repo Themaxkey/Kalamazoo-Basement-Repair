@@ -1,7 +1,7 @@
 ---
 title: "Basement Wall Crack Repair in Kalamazoo, MI"
 seoTitle: "Basement Wall Crack Repair Kalamazoo, MI | Which Cracks Matter"
-description: "How to tell a harmless basement wall crack from a structural one in Kalamazoo, what repair costs, and when it can simply be watched. (269) 000-0000."
+description: "How to tell a harmless basement wall crack from a structural one in Kalamazoo, what repair costs, and when it can simply be watched. (269) 307-7363."
 tagline: "A crack in the wall"
 fixedBy: "foundation-crack-repair"
 order: 2

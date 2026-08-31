@@ -1,7 +1,7 @@
 ---
 title: "Sump Pump Installation in Kalamazoo, MI"
 seoTitle: "Sump Pump Installation Kalamazoo, MI | Sizing, Discharge & Backup"
-description: "Sizing, discharge routing that survives a Michigan winter, and why battery backup matters when the storm that floods you also cuts the power. (269) 000-0000"
+description: "Sizing, discharge routing that survives a Michigan winter, and why battery backup matters when the storm that floods you also cuts the power. (269) 307-7363"
 order: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Interior Basement Waterproofing in Kalamazoo, MI"
 seoTitle: "Interior Basement Waterproofing Kalamazoo, MI | Drain Tile & Sump"
-description: "Interior drain tile manages water rather than stopping it, at half the cost of digging outside. When that trade is right for your house. (269) 000-0000"
+description: "Interior drain tile manages water rather than stopping it, at half the cost of digging outside. When that trade is right for your house. (269) 307-7363"
 order: 2
 ---
 

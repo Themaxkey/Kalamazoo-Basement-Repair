@@ -1,7 +1,7 @@
 ---
 title: "Bowing or Leaning Basement Wall in Kalamazoo, MI"
 seoTitle: "Bowing Basement Wall Kalamazoo, MI | How Serious Is It?"
-description: "A bowing Kalamazoo basement wall is a structural failure in progress. How to measure it, judge urgency, and what repair costs. (269) 000-0000."
+description: "A bowing Kalamazoo basement wall is a structural failure in progress. How to measure it, judge urgency, and what repair costs. (269) 307-7363."
 tagline: "The wall is leaning in"
 fixedBy: "basement-wall-repair"
 order: 8

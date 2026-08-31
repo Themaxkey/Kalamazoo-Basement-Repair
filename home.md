@@ -1,7 +1,7 @@
 ---
 title: "Basement Repair and Waterproofing in Kalamazoo, MI"
 seoTitle: "Basement Repair Kalamazoo, MI | Waterproofing & Foundations"
-description: "Wet basement, cracked wall or a pump that stopped? Free inspection across Kalamazoo County, and a straight answer on what it needs. (269) 000-0000."
+description: "Wet basement, cracked wall or a pump that stopped? Free inspection across Kalamazoo County, and a straight answer on what it needs. (269) 307-7363."
 tagline: "Water on the floor, a crack that has opened up, or a smell you cannot place. Tell us what you are seeing and we will get you a straight answer."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Interior or Exterior Waterproofing — Which Do I Need?"
 seoTitle: "Interior vs Exterior Basement Waterproofing | Which Is Right"
-description: "How interior drainage and exterior membrane differ, what each costs, and why the expensive one is sold more often than it is needed. (269) 000-0000."
+description: "How interior drainage and exterior membrane differ, what each costs, and why the expensive one is sold more often than it is needed. (269) 307-7363."
 question: "Should I get interior or exterior basement waterproofing?"
 ---
 

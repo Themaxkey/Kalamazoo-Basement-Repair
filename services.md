@@ -1,7 +1,7 @@
 ---
 title: "Basement Waterproofing and Repair Services in Kalamazoo, MI"
 seoTitle: "Basement & Foundation Services Kalamazoo, MI | Free Inspection"
-description: "Waterproofing, sump pumps, crack repair, wall stabilization and egress windows across Kalamazoo County. Free inspection. (269) 000-0000."
+description: "Waterproofing, sump pumps, crack repair, wall stabilization and egress windows across Kalamazoo County. Free inspection. (269) 307-7363."
 ---
 
 These are the repairs themselves. If you are still working out which one you need, the [basement problems](/basement-problems/) pages start from the symptom instead and route you here.

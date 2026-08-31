@@ -1,7 +1,7 @@
 ---
 title: "Foundation Crack Repair in Kalamazoo, MI"
 seoTitle: "Foundation Crack Repair Kalamazoo, MI | Epoxy & Polyurethane Injection"
-description: "Epoxy or polyurethane injection, which one your crack needs, and the honest limit: sealing water out does not fix a wall still moving. (269) 000-0000"
+description: "Epoxy or polyurethane injection, which one your crack needs, and the honest limit: sealing water out does not fix a wall still moving. (269) 307-7363"
 order: 6
 ---
 

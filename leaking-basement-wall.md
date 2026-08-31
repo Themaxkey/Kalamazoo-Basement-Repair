@@ -1,7 +1,7 @@
 ---
 title: "Leaking Basement Wall in Kalamazoo, MI"
 seoTitle: "Leaking Basement Wall Kalamazoo, MI | Find the Entry Point"
-description: "A Kalamazoo basement wall that leaks has a route water takes in. How to find it, which leaks are cheap to fix, what the rest cost. (269) 000-0000."
+description: "A Kalamazoo basement wall that leaks has a route water takes in. How to find it, which leaks are cheap to fix, what the rest cost. (269) 307-7363."
 tagline: "The wall is leaking"
 fixedBy: "interior-basement-waterproofing"
 order: 5

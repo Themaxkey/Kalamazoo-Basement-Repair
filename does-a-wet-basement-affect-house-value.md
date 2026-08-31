@@ -1,7 +1,7 @@
 ---
 title: "Does a Wet Basement Affect My House Value?"
 seoTitle: "Does a Wet Basement Hurt Resale Value? | Michigan Selling"
-description: "How a wet basement affects a Michigan sale, what has to be disclosed, and why documented repairs beat a cleaned-up basement. (269) 000-0000."
+description: "How a wet basement affects a Michigan sale, what has to be disclosed, and why documented repairs beat a cleaned-up basement. (269) 307-7363."
 question: "Does a wet basement affect my house value?"
 ---
 

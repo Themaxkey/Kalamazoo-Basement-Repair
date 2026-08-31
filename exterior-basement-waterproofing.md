@@ -1,7 +1,7 @@
 ---
 title: "Exterior Basement Waterproofing in Kalamazoo, MI"
 seoTitle: "Exterior Basement Waterproofing Kalamazoo, MI | Excavation & Membrane"
-description: "Excavating to the footing stops water at the wall instead of managing it. It costs two to three times interior work and wrecks the yard. (269) 000-0000"
+description: "Excavating to the footing stops water at the wall instead of managing it. It costs two to three times interior work and wrecks the yard. (269) 307-7363"
 order: 3
 ---
 

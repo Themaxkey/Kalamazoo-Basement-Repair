@@ -1,7 +1,7 @@
 ---
 title: "Cracks in the Basement Floor in Kalamazoo, MI"
 seoTitle: "Cracks in a Basement Floor? Kalamazoo, MI | Which Ones Matter"
-description: "Most Kalamazoo basement floor cracks are cosmetic. How to tell those from the few that are not, what they cost to deal with. (269) 000-0000."
+description: "Most Kalamazoo basement floor cracks are cosmetic. How to tell those from the few that are not, what they cost to deal with. (269) 307-7363."
 tagline: "Cracks in the floor"
 fixedBy: "foundation-crack-repair"
 order: 4

@@ -1,7 +1,7 @@
 ---
 title: "Can I Waterproof My Basement Myself?"
 seoTitle: "DIY Basement Waterproofing | What Works and What Doesn't"
-description: "Which basement waterproofing jobs are genuinely DIY, which are not, and why waterproof paint fails on a wet Michigan wall. (269) 000-0000."
+description: "Which basement waterproofing jobs are genuinely DIY, which are not, and why waterproof paint fails on a wet Michigan wall. (269) 307-7363."
 question: "Can I waterproof my basement myself?"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Musty Smell in the Basement in Kalamazoo, MI"
 seoTitle: "Musty Smell in the Basement? Kalamazoo, MI | Find the Damp"
-description: "A musty Kalamazoo basement always means something down there is damp. How to find what, which fixes are free, and when it needs work. (269) 000-0000."
+description: "A musty Kalamazoo basement always means something down there is damp. How to find what, which fixes are free, and when it needs work. (269) 307-7363."
 tagline: "It smells down there"
 fixedBy: "basement-waterproofing"
 order: 7

@@ -38,12 +38,12 @@ export const site = {
   business: {
     name:      'Kalamazoo Basement Repair',
     shortName: 'Kalamazoo Basement',
-    // TODO(Max): buy a 269 number in Twilio and replace BOTH of these, plus
-    // the number written in plain text inside the `description:` front matter
-    // of every markdown file (it repeats there for the search snippet).
-    // Run `node scripts/check-leaks.mjs` after — it will catch any you miss.
-    phone:     '(269) 000-0000',
-    phoneRaw:  '+12690000000',
+    // Live number, set 29 Aug 2026. It also appears in plain text inside the
+    // `description:` front matter of every markdown file, because it shows in
+    // the search snippet. If it ever changes, change it in BOTH places and run
+    // `node scripts/check-leaks.mjs` — that script fails the build on strays.
+    phone:     '(269) 307-7363',
+    phoneRaw:  '+12693077363',
     email:     'info@kalamazoobasementrepair.com',
     domain:    'kalamazoobasementrepair.com',
   },

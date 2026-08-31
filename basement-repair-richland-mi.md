@@ -1,7 +1,7 @@
 ---
 title: "Basement Repair in Richland, MI"
 seoTitle: "Basement Repair Richland, MI | Waterproofing Near Gull Lake"
-description: "Basement waterproofing and foundation repair in Richland and the Gull Lake area, MI. Free inspection, honest diagnosis. (269) 000-0000."
+description: "Basement waterproofing and foundation repair in Richland and the Gull Lake area, MI. Free inspection, honest diagnosis. (269) 307-7363."
 town: "Richland"
 ---
 

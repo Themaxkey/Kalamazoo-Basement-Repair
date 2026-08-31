@@ -1,12 +1,12 @@
 ---
 title: "Contact Kalamazoo Basement Repair"
 seoTitle: "Contact Us | Kalamazoo Basement Repair, MI"
-description: "Contact Kalamazoo Basement Repair for a free inspection across Kalamazoo County. Call (269) 000-0000 for basement, foundation and sump pump work."
+description: "Contact Kalamazoo Basement Repair for a free inspection across Kalamazoo County. Call (269) 307-7363 for basement, foundation and sump pump work."
 ---
 
 ## Contact Us
 
-Phone: (269) 000-0000
+Phone: (269) 307-7363
 Email: info@kalamazoobasementrepair.com
 
 ## Getting in Touch

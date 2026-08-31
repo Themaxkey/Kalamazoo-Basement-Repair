@@ -1,7 +1,7 @@
 ---
 title: "Egress Window Installation in Kalamazoo, MI"
 seoTitle: "Egress Window Installation Kalamazoo, MI | Code, Wells & Drainage"
-description: "A below-grade bedroom legally needs an escape opening. Sizes, wells, drainage into the sump, and what cutting a foundation wall costs. (269) 000-0000"
+description: "A below-grade bedroom legally needs an escape opening. Sizes, wells, drainage into the sump, and what cutting a foundation wall costs. (269) 307-7363"
 order: 8
 ---
 

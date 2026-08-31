@@ -1,7 +1,7 @@
 ---
 title: "Sump Pump Repair in Kalamazoo, MI"
 seoTitle: "Sump Pump Repair Kalamazoo, MI | Diagnosis Before Replacement"
-description: "Switch, impeller, check valve or a pump that was never big enough. How to tell which one failed, and when repair is money after bad. (269) 000-0000"
+description: "Switch, impeller, check valve or a pump that was never big enough. How to tell which one failed, and when repair is money after bad. (269) 307-7363"
 order: 5
 ---
 

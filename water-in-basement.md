@@ -1,7 +1,7 @@
 ---
 title: "Water in the Basement in Kalamazoo, MI"
 seoTitle: "Water in Your Basement? Kalamazoo, MI | What It Means"
-description: "Water on a Kalamazoo basement floor: what the entry point tells you about the cause, what each fix honestly costs, and when to worry. (269) 000-0000."
+description: "Water on a Kalamazoo basement floor: what the entry point tells you about the cause, what each fix honestly costs, and when to worry. (269) 307-7363."
 tagline: "Water on the floor"
 fixedBy: "basement-waterproofing"
 order: 1

@@ -1,7 +1,7 @@
 ---
 title: "Is a Crack in My Basement Wall Serious?"
 seoTitle: "Is a Basement Wall Crack Serious? | How to Tell, Kalamazoo MI"
-description: "Which basement wall cracks are cosmetic, which leak, and which are structural. How to read direction, width and movement. (269) 000-0000."
+description: "Which basement wall cracks are cosmetic, which leak, and which are structural. How to read direction, width and movement. (269) 307-7363."
 question: "Is a crack in my basement wall serious?"
 ---
 

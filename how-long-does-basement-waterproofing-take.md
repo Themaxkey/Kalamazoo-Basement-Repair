@@ -1,7 +1,7 @@
 ---
 title: "How Long Does Basement Waterproofing Take?"
 seoTitle: "How Long Does Basement Waterproofing Take? | Realistic Timelines"
-description: "Realistic timelines for crack injection, sump installation, interior drainage and exterior excavation, plus curing time. (269) 000-0000."
+description: "Realistic timelines for crack injection, sump installation, interior drainage and exterior excavation, plus curing time. (269) 307-7363."
 question: "How long does basement waterproofing take?"
 ---
 

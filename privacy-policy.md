@@ -47,4 +47,4 @@ If this policy changes, the revised version will be posted here with a new effec
 
 ## Contact
 
-Questions about this policy: info@kalamazoobasementrepair.com or (269) 000-0000.
+Questions about this policy: info@kalamazoobasementrepair.com or (269) 307-7363.

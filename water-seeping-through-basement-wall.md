@@ -1,7 +1,7 @@
 ---
 title: "Water Seeping Through a Basement Wall in Kalamazoo, MI"
 seoTitle: "Water Seeping Through a Basement Wall | Kalamazoo, MI Causes"
-description: "Damp spreading through a Kalamazoo basement wall: seepage, condensation or a leak? How to tell them apart and what each costs. (269) 000-0000."
+description: "Damp spreading through a Kalamazoo basement wall: seepage, condensation or a leak? How to tell them apart and what each costs. (269) 307-7363."
 tagline: "Damp coming through the wall"
 fixedBy: "interior-basement-waterproofing"
 order: 3

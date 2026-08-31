@@ -1,7 +1,7 @@
 ---
 title: "How Much Does Basement Waterproofing Cost in Michigan?"
 seoTitle: "Basement Waterproofing Cost Michigan | What It Really Runs"
-description: "Real Michigan basement waterproofing costs by repair type, and why two quotes for the same basement can differ by twenty thousand. (269) 000-0000."
+description: "Real Michigan basement waterproofing costs by repair type, and why two quotes for the same basement can differ by twenty thousand. (269) 307-7363."
 question: "How much does basement waterproofing cost in Michigan?"
 ---
 

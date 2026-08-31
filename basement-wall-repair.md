@@ -1,7 +1,7 @@
 ---
 title: "Basement Wall Repair in Kalamazoo, MI"
 seoTitle: "Basement Wall Repair Kalamazoo, MI | Carbon Fiber, Beams & Anchors"
-description: "Bowing and failing foundation walls: carbon fiber straps, steel beams, wall anchors or rebuild. What each holds, and what each costs. (269) 000-0000"
+description: "Bowing and failing foundation walls: carbon fiber straps, steel beams, wall anchors or rebuild. What each holds, and what each costs. (269) 307-7363"
 order: 7
 ---
 

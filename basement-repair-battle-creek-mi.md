@@ -1,7 +1,7 @@
 ---
 title: "Basement Repair in Battle Creek, MI"
 seoTitle: "Basement Repair Battle Creek, MI | Waterproofing & Wall Repair"
-description: "Basement waterproofing and foundation repair in Battle Creek, MI. Block wall specialists, free inspection, straight answers. (269) 000-0000."
+description: "Basement waterproofing and foundation repair in Battle Creek, MI. Block wall specialists, free inspection, straight answers. (269) 307-7363."
 town: "Battle Creek"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Will Homeowners Insurance Cover a Wet Basement?"
 seoTitle: "Does Insurance Cover a Wet Basement? | Michigan Explained"
-description: "What a standard homeowners policy covers for basement water, what it excludes, and where sump pump and backup riders fit. (269) 000-0000."
+description: "What a standard homeowners policy covers for basement water, what it excludes, and where sump pump and backup riders fit. (269) 307-7363."
 question: "Will homeowners insurance cover a wet basement?"
 ---
 

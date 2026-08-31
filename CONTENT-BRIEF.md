@@ -90,7 +90,7 @@ body; the template renders the H1 from `title`. Start the body with prose or a
 `##` subhead.
 
 `description` must be 140–165 characters and must contain the phone number
-verbatim as `(269) 000-0000` (a placeholder — Max swaps it later and a script
+verbatim as `(269) 307-7363` (the live number — a script
 checks for stragglers).
 
 **problems/** (symptom pages)
@@ -98,7 +98,7 @@ checks for stragglers).
 ---
 title: "Water in the Basement in Kalamazoo, MI"      # the on-page H1
 seoTitle: "Water in Your Basement? Kalamazoo, MI | What It Means"
-description: "..."                                    # 140-165 chars, incl. (269) 000-0000
+description: "..."                                    # 140-165 chars, incl. (269) 307-7363
 tagline: "Water on the floor"                         # 2-5 words, used as the card label
 fixedBy: "basement-waterproofing"                     # MUST be a slug in site.config.services
 order: 1

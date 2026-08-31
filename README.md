@@ -48,11 +48,10 @@ three sites had 104 markdown files between them containing zero.
 
 ## Before this goes live
 
-1. **Buy a 269 Twilio number.** Replace `phone` and `phoneRaw` in
-   `site.config.ts`, then the plain-text number inside the `description` front
-   matter of every markdown file. It is currently the placeholder
-   `(269) 000-0000`. Run `node scripts/check-leaks.mjs` afterwards — it fails
-   the build on stragglers.
+1. ~~Buy a 269 number and replace the placeholder everywhere.~~ **Done,
+   29 Aug 2026.** The live number is in `site.config.ts` and in the
+   `description` front matter of all 38 markdown files. `check-leaks.mjs`
+   passes. If it ever changes, change both places and re-run that script.
 2. **Replace the logo and icons.** `public/images/logo.png`, `logo-512.png`,
    `public/apple-touch-icon.png` and `public/favicon.ico` are still the previous
    market's artwork.
@@ -63,8 +62,18 @@ three sites had 104 markdown files between them containing zero.
    obvious.
 5. **Add hero images.** No content file references one yet, so pages render
    without them — correctly, but plainly.
-6. **Turn on Always Use HTTPS** for the zone in Cloudflare, and add the www to
-   root redirect.
+6. ~~Turn on Always Use HTTPS for the zone in Cloudflare, and add the www to
+   root redirect.~~ **Done, 27 Aug.** Always Use HTTPS is on, and a Redirect
+   Rule is deployed: `(http.host eq "www.kalamazoobasementrepair.com")` →
+   301 to `concat("https://kalamazoobasementrepair.com", http.request.uri.path)`
+   with query string preserved. Identical to the other three zones.
+
+   **But the zone has no DNS records at all yet**, so nothing resolves and the
+   redirect rule cannot fire. When you deploy, bind **both** the root and the
+   `www` hostname to the Worker as custom domains. Binding only the root leaves
+   `www.kalamazoobasementrepair.com` dead rather than redirecting, and the rule
+   sits idle. Cloudflare warned about exactly this when the rule was deployed;
+   it was deployed anyway because the record appears on deploy.
 
 ## Checks
 

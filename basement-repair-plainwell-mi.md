@@ -1,7 +1,7 @@
 ---
 title: "Basement Repair in Plainwell, MI"
 seoTitle: "Basement Repair Plainwell, MI | Wet Basement Specialists"
-description: "Wet basement and foundation repair in Plainwell, MI. River-valley water table, honest diagnosis, free inspection. (269) 000-0000."
+description: "Wet basement and foundation repair in Plainwell, MI. River-valley water table, honest diagnosis, free inspection. (269) 307-7363."
 town: "Plainwell"
 ---
 

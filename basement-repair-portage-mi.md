@@ -1,7 +1,7 @@
 ---
 title: "Basement Repair in Portage, MI"
 seoTitle: "Basement Repair Portage, MI | Waterproofing & Sump Pumps"
-description: "Basement waterproofing, sump pumps and crack repair in Portage, MI. Free inspection and an honest answer on what it needs. (269) 000-0000."
+description: "Basement waterproofing, sump pumps and crack repair in Portage, MI. Free inspection and an honest answer on what it needs. (269) 307-7363."
 town: "Portage"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "About Kalamazoo Basement Repair"
 seoTitle: "About Us | Kalamazoo Basement Repair, MI"
-description: "Who we are, how this site works, and how a request here reaches a licensed local basement and foundation contractor in Kalamazoo. (269) 000-0000."
+description: "Who we are, how this site works, and how a request here reaches a licensed local basement and foundation contractor in Kalamazoo. (269) 307-7363."
 ---
 
 ## How This Site Works

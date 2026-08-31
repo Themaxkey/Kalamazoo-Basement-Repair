@@ -31,7 +31,7 @@ Reply **STOP** to any message to opt out. You will receive a single confirmation
 
 ## How to Get Help
 
-Reply **HELP** to any message, or email info@kalamazoobasementrepair.com, or call (269) 000-0000.
+Reply **HELP** to any message, or email info@kalamazoobasementrepair.com, or call (269) 307-7363.
 
 ## Carriers
 
@@ -47,4 +47,4 @@ Messaging is supported on major US carriers. Carrier support may change without 
 
 ## Contact
 
-Kalamazoo Basement Repair — info@kalamazoobasementrepair.com — (269) 000-0000.
+Kalamazoo Basement Repair — info@kalamazoobasementrepair.com — (269) 307-7363.

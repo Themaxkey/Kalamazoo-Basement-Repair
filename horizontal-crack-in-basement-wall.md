@@ -1,7 +1,7 @@
 ---
 title: "Horizontal Crack in a Basement Wall in Kalamazoo, MI"
 seoTitle: "Horizontal Crack in a Basement Wall | Kalamazoo, MI Structural"
-description: "A horizontal crack in a Kalamazoo basement wall is a load problem, not a water one. How to judge severity and what repair costs. (269) 000-0000."
+description: "A horizontal crack in a Kalamazoo basement wall is a load problem, not a water one. How to judge severity and what repair costs. (269) 307-7363."
 tagline: "A horizontal crack"
 fixedBy: "basement-wall-repair"
 order: 6
