@@ -49,6 +49,31 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
       townName={townName}
       faq={faq}
     />
+    {/*
+      Paint the palette from site.config.ts over global.css's defaults.
+
+      Without this the `brand` block in the config is decorative — global.css
+      hardcodes the previous market's colors and every clone ships looking
+      identical to its parent. That is exactly what happened on the first
+      Kalamazoo deploy: the site went live wearing Huntsville's teal and
+      orange despite the config specifying graphite and blue.
+
+      site.config.ts is meant to be the only file that changes between
+      markets. This is the line that makes that true for color.
+    */}
+    <style is:inline set:html={`:root{
+      --primary:${site.brand.primary};
+      --primary-dk:${site.brand.primaryDk};
+      --red:${site.brand.red};
+      --red-dk:${site.brand.redDk};
+      --cta:${site.brand.red};
+      --cta-dk:${site.brand.redDk};
+      --marker:${site.brand.marker};
+      --accent:${site.brand.accent};
+      --ink:${site.brand.ink};
+      --body:${site.brand.body};
+      --surface:${site.brand.surface};
+    }`}></style>
     <slot name="head" />
   </head>
   <body>
