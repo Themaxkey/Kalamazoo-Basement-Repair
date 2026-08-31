@@ -60,8 +60,17 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
 
       site.config.ts is meant to be the only file that changes between
       markets. This is the line that makes that true for color.
+
+      The selector is `:root:root`, not `:root`, and that is deliberate.
+      Astro bundles global.css and injects its <link> into the head AFTER
+      this inline block. Both would be plain `:root` — same specificity —
+      so global.css would win on source order and the config would be
+      ignored, which is exactly what happened on the first attempt.
+      Repeating the selector raises specificity to (0,2,0) and wins
+      regardless of where Astro decides to put the stylesheet link.
+      Verified in the live DOM before shipping.
     */}
-    <style is:inline set:html={`:root{
+    <style is:inline set:html={`:root:root{
       --primary:${site.brand.primary};
       --primary-dk:${site.brand.primaryDk};
       --red:${site.brand.red};
