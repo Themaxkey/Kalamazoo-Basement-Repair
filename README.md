@@ -57,9 +57,22 @@ three sites had 104 markdown files between them containing zero.
    market's artwork.
 3. **Set `RESEND_KEY`** as a Cloudflare dashboard secret. It must never be
    committed — see the note in `wrangler.jsonc`.
-4. **Generate a new `VOICEMAIL_TOKEN`** in `wrangler.jsonc` and set the matching
-   value in the Twilio Studio flow. The placeholder there is deliberately
-   obvious.
+
+   When you create that key in Resend, **check the Domain dropdown reads
+   `kalamazoobasementrepair.com`**. Resend keys can be locked to a single
+   domain, and a key pointed at the wrong one returns
+   `403 This API key is not authorized to send emails from …`. That is exactly
+   what silently swallowed every Birmingham lead, missed call and voicemail for
+   a fortnight — the key was created before its domain was verified, so the
+   dropdown only offered the previous site. Thirty seconds of checking here
+   saves a fortnight of invisible loss.
+4. ~~Generate a new `VOICEMAIL_TOKEN` and set it in the Twilio Studio flow.~~
+   **Not needed — this site runs on CallRail, not Twilio.** Nothing will POST to
+   `/api/voicemail` or `/api/missed-call`, because CallRail handles its own call
+   alerts and recording. Leave `VOICEMAIL_TOKEN` unset: the handlers check for it
+   first and return `403` without it, so the endpoints fail closed, which is the
+   behavior we want for routes nothing should be calling. The contact form is
+   unaffected — it uses `/api/lead`, which only needs `RESEND_KEY`.
 5. **Add hero images.** No content file references one yet, so pages render
    without them — correctly, but plainly.
 6. ~~Turn on Always Use HTTPS for the zone in Cloudflare, and add the www to
