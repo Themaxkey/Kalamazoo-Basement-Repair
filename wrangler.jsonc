@@ -1,0 +1,49 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // MUST match the Worker's name in the Cloudflare dashboard exactly. Workers
+  // Builds happens to deploy to the connected Worker regardless of what this
+  // says, which is why a mismatch here went unnoticed — but a `wrangler deploy`
+  // run from a laptop obeys this field and would silently create a SECOND,
+  // separate Worker with no custom domain attached.
+  "name": "kalamazoo-basement-repair",
+  "main": "src/server/worker.ts",
+  "compatibility_date": "2026-08-01",
+
+  // Non-secret runtime values for the contact form and voicemail notifications.
+  //
+  // These MUST be declared here, not only in the Cloudflare dashboard. Every
+  // push runs `wrangler deploy`, which replaces the Worker's plain-text vars
+  // with whatever this file declares — so a variable added only in the
+  // dashboard is silently wiped by the next build.
+  //
+  // RESEND_KEY is the exception: it is a dashboard secret, survives every
+  // deploy, and must never be committed.
+  //
+  // LEAD_TO is set to the owner's inbox for now. Once an operator is signed,
+  // change it to route leads straight to them.
+  "vars": {
+    "LEAD_TO": "maxwellhkey@gmail.com",
+
+    // Sends from its own domain, verified in Resend.
+    //
+    // An earlier version of this comment claimed the Resend free tier covers
+    // only ONE sending domain and that this site therefore needed a paid plan.
+    // That was wrong. Resend's own pricing docs state no domain limit, and this
+    // account has three domains verified on the free plan. The real free-tier
+    // constraint is volume — 3,000 emails a month and 100 a day, shared across
+    // every domain on the account.
+    "LEAD_FROM": "Kalamazoo Basement Repair <leads@kalamazoobasementrepair.com>",
+    "VOICEMAIL_TOKEN": "REPLACE-ME-GENERATE-A-NEW-RANDOM-TOKEN"
+  },
+
+  // Astro builds static HTML into ./dist. Cloudflare serves those files
+  // directly from its edge — static asset requests are free and unlimited.
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+
+  "observability": { "enabled": true }
+}

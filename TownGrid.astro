@@ -1,0 +1,47 @@
+---
+import { site } from '../../site.config';
+
+/* The anchor text here used to be the bare town name. That is the single most
+   wasted signal on a site like this: internal anchor text is one of the
+   strongest hints Google has about what a page is for, and a bare place name
+   says nothing about the trade.
+
+   It now reads "<Trade> in <Town>, <ST>", which is accurate — a town page is
+   about exactly that. Do NOT apply the same trick in reverse on ServiceGrid:
+   labeling a link with a town name when it points at the metro-wide service
+   page would be an anchor that promises something the destination does not
+   deliver.
+
+   `exclude` stops a town page linking to itself. `limit` and `offset` let a
+   town page show a rotating window of other towns rather than the same full
+   list on every page, which is what made town pages' lower halves identical
+   on the earlier sites. */
+
+interface Props {
+  exclude?: string;
+  limit?: number;
+  offset?: number;
+}
+
+const { exclude, limit, offset = 0 } = Astro.props;
+/* Title case for the anchor, because that is a link label. Sentence case for
+   the blurb underneath, because that is a sentence — title case mid-sentence
+   is how a template gives itself away. */
+const tradeTitle    = site.trade.noun.replace(/\b\w/g, (c) => c.toUpperCase());
+const tradeSentence = site.trade.noun.charAt(0).toUpperCase() + site.trade.noun.slice(1);
+
+const pool = site.towns.filter((t) => t.slug !== exclude);
+// pool can be empty in a one-town market once `exclude` removes the only
+// entry, and `% 0` is NaN, which would slice the array into nothing.
+const cut = pool.length > 0 ? offset % pool.length : 0;
+const ordered = cut > 0 ? [...pool.slice(cut), ...pool.slice(0, cut)] : pool;
+const towns = limit ? ordered.slice(0, limit) : ordered;
+---
+<div class="grid">
+  {towns.map((t) => (
+    <a class="card" href={`/${t.slug}/`}>
+      <strong>{tradeTitle} in {t.name}, {site.location.stateAbbr}</strong>
+      <span>{tradeSentence} and related work for homes in {t.name}.</span>
+    </a>
+  ))}
+</div>

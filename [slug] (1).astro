@@ -1,0 +1,43 @@
+---
+import { getCollection, render } from 'astro:content';
+import { site } from '../../../site.config';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+export async function getStaticPaths() {
+  const faqs = await getCollection('faqs');
+  return faqs.map(e => ({ params: { slug: e.id }, props: { entry: e } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d: any = entry.data;
+const faqBlock = d.question ? [{ question: d.question, answer: d.description }] : undefined;
+---
+<BaseLayout seoTitle={d.seoTitle} description={d.description} pageType="faq" faq={faqBlock}>
+  <div class="wrap page-head">
+    <Breadcrumbs kind="faq" name={d.title} path={`/faq/${entry.id}/`} />
+    <h1>{d.title}</h1>
+  </div>
+  {d.hero && (
+    <div class="wrap">
+      <figure class="page-hero">
+        <img src={`/images/${d.hero}`} alt={d.heroAlt ?? d.title} width="1120" height="560" loading="lazy" />
+      </figure>
+    </div>
+  )}
+
+  <div class="wrap">
+    <article class="prose"><Content /></article>
+    <aside class="related">
+      <p>
+        More answers on the <a href="/faq/">{site.trade.noun} FAQ</a>, or see
+        what we actually do on the <a href="/services/">services page</a> and
+        where we work across <a href="/service-area/">{site.location.county}</a>.
+      </p>
+    </aside>
+    <div class="callout">
+      <p>Still have a question? Call <a href={`tel:${site.business.phoneRaw}`}>{site.business.phone}</a>.</p>
+    </div>
+  </div>
+</BaseLayout>

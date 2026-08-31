@@ -1,0 +1,32 @@
+---
+import { site } from '../../site.config';
+import { getCollection } from 'astro:content';
+
+/* The symptom grid. Anchor text here is the symptom in the homeowner's own
+   words — "Water in the Basement", not "Water Intrusion Remediation" — because
+   the whole reason these pages exist is that people search in plain language
+   at the moment the problem is in front of them. */
+
+interface Props {
+  exclude?: string;
+  limit?: number;
+}
+
+const { exclude, limit } = Astro.props;
+const entries = await getCollection('problems');
+const byId = new Map(entries.map((e) => [e.id, e.data]));
+
+const pool = site.problems.filter((p) => p.slug !== exclude && byId.has(p.slug));
+const problems = limit ? pool.slice(0, limit) : pool;
+---
+<div class="grid">
+  {problems.map((p) => {
+    const d: any = byId.get(p.slug);
+    return (
+      <a class="card" href={`/${p.slug}/`}>
+        <strong>{d?.tagline ?? p.name}</strong>
+        <span>{d?.description ?? ''}</span>
+      </a>
+    );
+  })}
+</div>

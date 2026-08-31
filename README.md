@@ -1,0 +1,85 @@
+# Kalamazoo Basement Repair
+
+Lead-generation site for basement waterproofing and foundation work across
+Kalamazoo, Kalamazoo County and southwest Michigan.
+
+Fourth site from this template, and the first one built to a different shape.
+`site.config.ts` is still the only file that differs structurally between
+markets — everything else reads from it.
+
+## Why this one is built differently
+
+The first three sites lead with a city service page and hang ten town pages
+underneath. Search Console says that was the wrong shape, and the research
+behind this market says so more bluntly:
+
+**Suburb demand does not exist for this trade.** 34 towns were tested across two
+metros and 31 returned no measurable search volume at all. A control on the same
+towns showed `roofing kettering ohio` at 150/mo, so the towns are visible to the
+tools — people simply do not search for basement work by suburb. Hence four town
+pages here, not ten.
+
+**The demand is in symptoms.** `water in basement` alone is 10,000/mo at $17.00 a
+click with no map pack above it. The wider symptom cluster — cracks, leaks,
+seepage, musty smells — is roughly 21,400/mo at difficulty 0–4. That is why
+`problems` is a first-class content collection in this repo, why it sits in the
+header, and why it appears above services on the homepage.
+
+**The market was measured, not assumed.** Kalamazoo's map pack runs 54 / 30 / 7
+reviews with no paid ads above it, against Huntsville's 186 / 39 / 3,500 with
+five ads. The organic top ten is DR 0–22 with almost no links to the ranking
+pages.
+
+Known weakness: this trade peaks in July and troughs in November. A quiet first
+quarter is the seasonal curve, not a failure.
+
+## Content architecture
+
+| Collection | Count | Role |
+|---|---|---|
+| `problems` | 8 | Symptom pages. The commercial front door. Each carries `fixedBy`, the slug of the service that solves it — validated at build time. |
+| `services` | 9 | The repairs themselves. |
+| `pages` | 10 | Home, hubs, costs, about, contact, legal. |
+| `faqs` | 7 | Cost, urgency, insurance, DIY, timelines, resale. |
+| `towns` | 4 | Portage, Battle Creek, Plainwell, Richland. |
+
+Roughly 26,000 words. Every page carries in-prose internal links; the earlier
+three sites had 104 markdown files between them containing zero.
+
+## Before this goes live
+
+1. **Buy a 269 Twilio number.** Replace `phone` and `phoneRaw` in
+   `site.config.ts`, then the plain-text number inside the `description` front
+   matter of every markdown file. It is currently the placeholder
+   `(269) 000-0000`. Run `node scripts/check-leaks.mjs` afterwards — it fails
+   the build on stragglers.
+2. **Replace the logo and icons.** `public/images/logo.png`, `logo-512.png`,
+   `public/apple-touch-icon.png` and `public/favicon.ico` are still the previous
+   market's artwork.
+3. **Set `RESEND_KEY`** as a Cloudflare dashboard secret. It must never be
+   committed — see the note in `wrangler.jsonc`.
+4. **Generate a new `VOICEMAIL_TOKEN`** in `wrangler.jsonc` and set the matching
+   value in the Twilio Studio flow. The placeholder there is deliberately
+   obvious.
+5. **Add hero images.** No content file references one yet, so pages render
+   without them — correctly, but plainly.
+6. **Turn on Always Use HTTPS** for the zone in Cloudflare, and add the www to
+   root redirect.
+
+## Checks
+
+```
+node scripts/check-leaks.mjs
+```
+
+Catches values left over from a previous market — wrong city, wrong state code,
+wrong phone number, wrong domain, and British spellings on a US site. It exits
+non-zero, so it can gate a deploy. It is worth running before every push; it has
+already caught a real mistake on this build.
+
+## Content standards
+
+`CONTENT-BRIEF.md` documents the voice, the honesty rules and the frontmatter
+schemas. Read it before writing any new page. The short version: no invented
+years in business, no invented statistics, no fabricated testimonials, no street
+address, and say plainly when a homeowner needs no work at all.

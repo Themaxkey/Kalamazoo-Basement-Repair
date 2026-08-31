@@ -1,0 +1,237 @@
+---
+import { getCollection, render } from 'astro:content';
+import { site } from '../../site.config';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ServiceGrid from '../components/ServiceGrid.astro';
+import ProblemGrid from '../components/ProblemGrid.astro';
+import TownGrid from '../components/TownGrid.astro';
+
+export async function getStaticPaths() {
+  const services = await getCollection('services');
+  const problems = await getCollection('problems');
+  const towns    = await getCollection('towns');
+  const pages    = await getCollection('pages');
+
+  return [
+    ...services.map(e => ({ params: { slug: e.id }, props: { entry: e, kind: 'service' as const } })),
+    ...problems.map(e => ({ params: { slug: e.id }, props: { entry: e, kind: 'problem' as const } })),
+    ...towns.map(e    => ({ params: { slug: e.id }, props: { entry: e, kind: 'town'    as const } })),
+    // 'home' is rendered by index.astro and 'faq' by pages/faq/index.astro.
+    // Leaving 'faq' in here made this route and the static /faq/ route both
+    // claim the same URL — Astro resolves it in favor of the static file, so
+    // the site was fine, but two routes competing for one URL is exactly the
+    // kind of ambiguity that turns into a duplicate-content problem later.
+    ...pages.filter(e => e.id !== 'home' && e.id !== 'faq')
+            .map(e    => ({ params: { slug: e.id }, props: { entry: e, kind: 'page'    as const } })),
+  ];
+}
+
+const { entry, kind } = Astro.props;
+const { Content } = await render(entry);
+const d: any = entry.data;
+
+const serviceName = kind === 'service'
+  ? site.services.find(s => s.slug === entry.id)?.name
+  : undefined;
+const townName = kind === 'town' ? d.town : undefined;
+
+const showServices = entry.id === 'services';
+const showProblems = entry.id === 'basement-problems';
+const showTowns    = entry.id === 'service-area';
+
+/* A problem page's single most important link is to the service that fixes it.
+   `fixedBy` is required by the schema, so a typo here fails the build rather
+   than shipping a symptom page that dead-ends. */
+const fixedBy = kind === 'problem'
+  ? site.services.find(s => s.slug === (d.fixedBy as string))
+  : undefined;
+if (kind === 'problem' && !fixedBy) {
+  throw new Error(`${entry.id}.md has fixedBy: "${d.fixedBy}" which is not a slug in site.config.services`);
+}
+const path         = `/${entry.id}/`;
+
+/* ==================== RELATED SERVICES, AND WHY IT IS DERIVED ================
+   Every service page used to end with the full town grid and nothing else, and
+   every town page with the full service grid. No service linked to any other
+   service, and — checked across all three sites — not one of the 104 markdown
+   files on Birmingham and Bowling Green contained a single in-content internal
+   link. Every link on these sites lived in navigation boilerplate, which is
+   exactly the class of link Google discounts hardest.
+
+   The relationship is derived from the slug rather than hand-listed, for the
+   same reason site.config exists: a hand-written map is one more thing that
+   silently ships wrong into the next market. Services that share a first token
+   are siblings — foundation-repair / foundation-crack-repair / foundation-wall-
+   repair, or crawl-space-repair / crawl-space-encapsulation — and the list is
+   topped up in config order when a family has fewer than three members, which
+   is what happens on Bowling Green where the trades do not cluster as neatly.
+   ============================================================================ */
+const familyOf = (slug: string) => slug.split('-')[0];
+
+const related = kind === 'service'
+  ? (() => {
+      const fam  = familyOf(entry.id);
+      const kin  = site.services.filter(s => s.slug !== entry.id && familyOf(s.slug) === fam);
+      const rest = site.services.filter(s => s.slug !== entry.id && familyOf(s.slug) !== fam);
+      return [...kin, ...rest].slice(0, 3);
+    })()
+  : [];
+
+/* Town pages rotate their "other areas" window instead of all listing the same
+   towns in the same order. Ten town pages carrying an identical lower half is
+   what made them near-identical below the fold; a rotating window also spreads
+   links evenly instead of pointing every page at the first few towns. */
+/* Town pages step the window by one, so each of them shows a different set of
+   neighbors. Service pages step it by a whole window instead, so the windows
+   tile across the town list rather than overlapping almost completely.
+
+   Stepping service pages by one was wrong on Bowling Green: six services with
+   a six-town window covered towns 0-10 and never reached Glasgow at index 11,
+   which then had no inbound link from any service page at all. Multiplying by
+   the window size makes consecutive service pages pick up where the last one
+   left off, and every town gets covered. */
+const townOffset = kind === 'town'
+  ? Math.max(0, site.towns.findIndex(t => t.slug === entry.id))
+  : kind === 'service'
+    ? Math.max(0, site.services.findIndex(s => s.slug === entry.id)) * Math.min(6, site.towns.length)
+    : 0;
+
+/* Only offer "see all N services" when the grid is actually hiding some.
+   Bowling Green has exactly six services and the grid caps at six, so the
+   link would otherwise read "See all 6 services" directly under all six. */
+const servicesShown = Math.min(6, site.services.length);
+const townsShown    = Math.min(6, site.towns.length);
+---
+<BaseLayout
+  seoTitle={d.seoTitle}
+  description={d.description}
+  pageType={kind === 'problem' ? 'page' : kind}
+  serviceName={serviceName}
+  townName={townName}
+  noindex={d.noindex ?? false}
+>
+  <div class="wrap page-head">
+    {!d.noindex && <Breadcrumbs kind={kind} name={d.title} path={path} />}
+    <h1>{d.title}</h1>
+  </div>
+
+  {d.hero && (
+    <div class="wrap">
+      <figure class="page-hero">
+        <img src={`/images/${d.hero}`} alt={d.heroAlt ?? d.title} width="1120" height="560" loading="eager" fetchpriority="high" />
+        {d.heroCaption && <figcaption>{d.heroCaption}</figcaption>}
+      </figure>
+    </div>
+  )}
+
+  {showServices && <div class="wrap"><ServiceGrid /></div>}
+  {showProblems && <div class="wrap"><ProblemGrid /></div>}
+  {showTowns    && <div class="wrap"><TownGrid /></div>}
+
+  <div class="wrap">
+    <article class="prose"><Content /></article>
+  </div>
+
+  {kind === 'service' && related.length > 0 && (
+    <div class="wrap">
+      <aside class="related">
+        <h2>Closely related work</h2>
+        <p>
+          If {(serviceName ?? d.title).toLowerCase()} is not quite what you are looking at, the
+          nearest things we do are{' '}
+          {/* Astro preserves template whitespace, so the closing </span> must
+              stay on this line — a newline before it renders as a real space
+              and the sentence ends "foundation wall repair ." on every page. */}
+          {related.map((s, i) => (
+            <span><a href={`/${s.slug}/`}>{s.name.toLowerCase()}</a>{i < related.length - 2 ? ', ' : i === related.length - 2 ? ' and ' : ''}</span>
+          ))}. Not sure which one you need? That is what the{' '}
+          <a href="/contact/">free inspection</a> is for.
+        </p>
+      </aside>
+    </div>
+  )}
+
+  {kind === 'problem' && fixedBy && (
+    <div class="wrap">
+      <aside class="related">
+        <h2>What fixes this</h2>
+        <p>
+          On most Kalamazoo houses this is solved by{' '}
+          <a href={`/${fixedBy.slug}/`}>{fixedBy.name.toLowerCase()}</a>. What that
+          costs and what it involves is on that page, and the{' '}
+          <a href="/basement-waterproofing-cost/">costs page</a> has real numbers
+          rather than a range wide enough to be useless.
+        </p>
+      </aside>
+    </div>
+  )}
+
+  {kind === 'problem' && (
+    <section class="section alt">
+      <div class="wrap">
+        <h2>Other things basements do</h2>
+        <ProblemGrid exclude={entry.id} limit={4} />
+        <p class="grid-more"><a href="/basement-problems/">See all {site.problems.length} basement problems</a></p>
+      </div>
+    </section>
+  )}
+
+  {kind === 'town' && (
+    <section class="section alt">
+      <div class="wrap">
+        <h2>{site.trade.nounPlural.replace(/^\w/, (c) => c.toUpperCase())} we offer in {townName}</h2>
+        <ServiceGrid limit={servicesShown} />
+        {site.services.length > servicesShown && (
+          <p class="grid-more"><a href="/services/">See all {site.services.length} services</a></p>
+        )}
+
+        <h2>Other areas we serve</h2>
+        <TownGrid exclude={entry.id} limit={4} offset={townOffset} />
+        <p class="grid-more"><a href="/service-area/">See the full service area</a></p>
+      </div>
+    </section>
+  )}
+
+  {kind === 'service' && (
+    <section class="section alt">
+      <div class="wrap">
+        <h2>Where we work</h2>
+        {/* Offset by the service's own index so the eleven service pages do
+            not all point at the same first six towns — same reasoning as the
+            town-page rotation above. */}
+        <TownGrid limit={townsShown} offset={townOffset} />
+        {site.towns.length > townsShown && (
+          <p class="grid-more"><a href="/service-area/">See the full service area</a></p>
+        )}
+      </div>
+    </section>
+  )}
+
+  {entry.id === 'contact' && (
+    <div class="wrap">
+      <form class="lead-form" method="POST" action="/api/contact">
+        <h2>Request a quote</h2>
+        <label>Name<input type="text" name="name" required autocomplete="name" /></label>
+        <label>Phone<input type="tel" name="phone" autocomplete="tel" /></label>
+        <label>Email<input type="email" name="email" autocomplete="email" /></label>
+        <label>What do you need done?<textarea name="message" rows="4"></textarea></label>
+        <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp" />
+        <button type="submit">Send request</button>
+        <p class="form-note">{site.legal.disclosure}</p>
+      </form>
+    </div>
+  )}
+
+  <section class="section">
+    <div class="wrap">
+      <div class="callout">
+        <p><strong>Need {site.trade.noun} in {site.location.city}?</strong></p>
+        <p>
+          Call <a href={`tel:${site.business.phoneRaw}`}>{site.business.phone}</a> or
+          <a href="/contact/"> request a quote online</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
