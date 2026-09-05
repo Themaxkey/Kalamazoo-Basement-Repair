@@ -5,6 +5,9 @@ description: "A horizontal crack in a Kalamazoo basement wall is a load problem,
 tagline: "A horizontal crack"
 fixedBy: "basement-wall-repair"
 order: 6
+heroAlt: "A close view of a concrete block wall with a fine horizontal crack running along the mortar joint."
+hero: "horizontal-crack-in-basement-wall.webp"
+heroAlt: "A close view of a concrete block wall with a fine horizontal crack running along the mortar joint."
 ---
 
 Most cracks in a basement do not matter much. This one does. A horizontal crack running along a foundation wall is not shrinkage, not settlement and not a water problem that happens to look alarming. It is a bending failure: the soil outside is pushing sideways harder than the wall can resist, and the wall has cracked where the bending stress is highest. That is a genuinely different category from the vertical and diagonal cracking covered on our [basement wall crack](/basement-wall-crack-repair/) page, and it should be looked at by someone this week rather than filed under things to think about.

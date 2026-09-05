@@ -2,6 +2,8 @@
 title: "Basement Problems in Kalamazoo, MI"
 seoTitle: "Common Basement Problems in Kalamazoo, MI | What They Mean"
 description: "Water, cracks, bowing walls, musty smells. What each Kalamazoo basement symptom actually means, and which ones need work. (269) 307-7363."
+hero: "basement-problems.webp"
+heroAlt: "A block basement wall with a dark tide line staining the lower courses where water has stood."
 ---
 
 Start with what you can see. You do not need to know the name of the repair, and guessing at one early is how people end up buying the wrong job.

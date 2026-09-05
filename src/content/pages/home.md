@@ -3,6 +3,9 @@ title: "Basement Repair and Waterproofing in Kalamazoo, MI"
 seoTitle: "Basement Repair Kalamazoo, MI | Waterproofing & Foundations"
 description: "Wet basement, cracked wall or a pump that stopped? Free inspection across Kalamazoo County, and a straight answer on what it needs. (269) 307-7363."
 tagline: "Water on the floor, a crack that has opened up, or a smell you cannot place. Tell us what you are seeing and we will get you a straight answer."
+heroAlt: "A white two-story farmhouse at the edge of a bare field outside Kalamazoo on an overcast winter day."
+hero: "home-kalamazoo-basement.webp"
+heroAlt: "An empty unfinished basement with block walls, wooden stairs and daylight from a single window."
 ---
 
 Most people who end up on a page like this have already had the same unhelpful conversation twice. One contractor says the whole perimeter needs excavating. The next says it is nothing. Neither explains how they arrived there, and both want a decision today.

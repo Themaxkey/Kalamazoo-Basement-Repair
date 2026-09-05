@@ -2,6 +2,8 @@
 title: "Basement Waterproofing Cost in Kalamazoo, MI"
 seoTitle: "Basement Waterproofing Cost Kalamazoo, MI | Real 2026 Numbers"
 description: "What basement waterproofing and foundation repair actually cost in Kalamazoo, why quotes vary so widely, and which jobs are cheaper than feared. (269) 307-7363."
+hero: "basement-waterproofing-cost.webp"
+heroAlt: "A spirit level and a folding rule lying on a basement floor against a block wall."
 ---
 
 Every cost guide on this subject gives a range wide enough to be useless. The reason quotes vary is not mystery pricing — it is that "waterproofing" covers repairs that differ by a factor of fifty, and the estimate depends entirely on which one your house actually needs.

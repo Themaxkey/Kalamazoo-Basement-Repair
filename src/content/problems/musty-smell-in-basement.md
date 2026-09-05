@@ -5,6 +5,9 @@ description: "A musty Kalamazoo basement always means something down there is da
 tagline: "It smells down there"
 fixedBy: "basement-waterproofing"
 order: 7
+heroAlt: "A dim unfinished basement with wooden shelving and cardboard boxes against a block wall stained dark along the base."
+hero: "musty-smell-in-basement.webp"
+heroAlt: "A dim unfinished basement with wooden shelving and cardboard boxes against a block wall stained dark along the base."
 ---
 
 The smell is not the problem. The smell is information, and it is reliable information, which makes it more useful than most of what a basement gives you. That earthy cellar odour is produced by molds and soil bacteria metabolising organic material — paper, cotton, timber, dust, the paste behind old wallpaper — and they only do that when there is enough moisture available. Dry material does not smell. So a musty basement means something down there is wet, and the whole job is finding out what.

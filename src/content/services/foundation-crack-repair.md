@@ -3,6 +3,9 @@ title: "Foundation Crack Repair in Kalamazoo, MI"
 seoTitle: "Foundation Crack Repair Kalamazoo, MI | Epoxy & Polyurethane Injection"
 description: "Epoxy or polyurethane injection, which one your crack needs, and the honest limit: sealing water out does not fix a wall still moving. (269) 307-7363"
 order: 6
+heroAlt: "A vertical crack in a poured concrete wall sealed over with injection ports spaced down its length."
+hero: "foundation-crack-repair.webp"
+heroAlt: "A vertical crack in a poured concrete wall sealed over with injection ports spaced down its length."
 ---
 
 Crack repair in a poured concrete foundation means injection. A port is fixed over the crack, the face is sealed, and a two-part resin is pumped in under pressure until it has filled the crack through the full thickness of the wall — eight or ten inches, not a skim on the inside face. Done properly it is a permanent repair to that crack. Done as a surface patch with hydraulic cement, it fails, usually within a season, because the water is arriving under pressure from the far side and a patch on the near side is being pushed off.

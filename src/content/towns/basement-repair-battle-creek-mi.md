@@ -3,6 +3,8 @@ title: "Basement Repair in Battle Creek, MI"
 seoTitle: "Basement Repair Battle Creek, MI | Waterproofing & Wall Repair"
 description: "Basement waterproofing and foundation repair in Battle Creek, MI. Block wall specialists, free inspection, straight answers. (269) 307-7363."
 town: "Battle Creek"
+hero: "town-battle-creek.webp"
+heroAlt: "A residential street of older two-story homes with front porches on a wet overcast day."
 ---
 
 Battle Creek's housing stock is old enough that the foundation walls under a large share of it are unreinforced concrete block, and in the oldest parts, stone. That single fact drives most of what goes wrong in basements here and most of what the repairs cost.

@@ -2,6 +2,8 @@
 title: "Service Area — Kalamazoo County and Nearby"
 seoTitle: "Service Area | Basement Repair Kalamazoo County, MI"
 description: "Basement waterproofing and foundation repair across Kalamazoo, Portage, Battle Creek, Plainwell and Richland. Free inspection. (269) 307-7363."
+hero: "service-area.webp"
+heroAlt: "An aerial view of a river winding through farmland with a town beyond."
 ---
 
 We cover Kalamazoo and the surrounding towns, roughly a thirty-five mile radius taking in most of Kalamazoo County and the western edge of Calhoun County.

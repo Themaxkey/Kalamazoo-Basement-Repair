@@ -5,6 +5,9 @@ description: "A bowing Kalamazoo basement wall is a structural failure in progre
 tagline: "The wall is leaning in"
 fixedBy: "basement-wall-repair"
 order: 8
+heroAlt: "A block basement wall seen along its length, a horizontal crack running through one mortar course."
+hero: "bowing-basement-wall.webp"
+heroAlt: "A block basement wall seen along its length under a bare bulb, a horizontal crack running through one mortar course."
 ---
 
 This is one of the few basement problems that is exactly as serious as it looks. A wall bowing inward is not settling, not cosmetic cracking and not a water problem — it is losing a structural argument with the soil outside, and it will keep losing until something changes. Most pages on this site carry a paragraph about when to leave things alone. This one does not.

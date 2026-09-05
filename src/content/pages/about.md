@@ -2,6 +2,8 @@
 title: "About Kalamazoo Basement Repair"
 seoTitle: "About Us | Kalamazoo Basement Repair, MI"
 description: "Who we are, how this site works, and how a request here reaches a licensed local basement and foundation contractor in Kalamazoo. (269) 307-7363."
+hero: "about.webp"
+heroAlt: "A wide empty basement with block walls, overhead ductwork and damp patches across the floor."
 ---
 
 ## How This Site Works

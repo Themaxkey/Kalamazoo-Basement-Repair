@@ -3,6 +3,9 @@ title: "Basement Wall Repair in Kalamazoo, MI"
 seoTitle: "Basement Wall Repair Kalamazoo, MI | Carbon Fiber, Beams & Anchors"
 description: "Bowing and failing foundation walls: carbon fiber straps, steel beams, wall anchors or rebuild. What each holds, and what each costs. (269) 307-7363"
 order: 7
+heroAlt: "Four black carbon fiber straps bonded floor to ceiling across a concrete block basement wall and bracketed to the floor joists."
+hero: "basement-wall-repair.webp"
+heroAlt: "Four black carbon fiber straps bonded floor to ceiling across a concrete block basement wall and bracketed to the floor joists."
 ---
 
 This is the structural end of the trade and it is the expensive end. Everything else on this site is about water. This page is about a wall that is losing an argument with the soil behind it, and the difference matters, because a wet wall is an inconvenience and a moving wall is a building problem that gets worse rather than better.

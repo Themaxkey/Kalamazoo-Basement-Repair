@@ -3,6 +3,8 @@ title: "Basement Repair in Portage, MI"
 seoTitle: "Basement Repair Portage, MI | Waterproofing & Sump Pumps"
 description: "Basement waterproofing, sump pumps and crack repair in Portage, MI. Free inspection and an honest answer on what it needs. (269) 307-7363."
 town: "Portage"
+hero: "town-portage.webp"
+heroAlt: "A quiet Portage street of single-story brick ranch homes with bare trees and patches of snow on the grass."
 ---
 
 Portage grew mostly after the war, and that shows up in its basements. Where central Kalamazoo has block and stone walls laid before anyone was thinking about lateral soil loads, most Portage houses have poured concrete — which fails differently and, on the whole, more forgivingly.

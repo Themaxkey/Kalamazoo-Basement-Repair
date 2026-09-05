@@ -5,6 +5,9 @@ description: "How to tell a harmless basement wall crack from a structural one i
 tagline: "A crack in the wall"
 fixedBy: "foundation-crack-repair"
 order: 2
+heroAlt: "A vertical crack in a poured concrete foundation wall with white mineral staining down both sides."
+hero: "basement-wall-crack-repair.webp"
+heroAlt: "A vertical crack in a poured concrete foundation wall with white mineral staining down both sides."
 ---
 
 Most cracks in a basement wall are not a structural problem, and saying so up front is more useful than anything else on this page. Concrete shrinks as it cures and keeps moving with temperature for the life of the building. A house settles into its ground in the first years and then mostly stops. A large share of the cracks people find with a torch on a Sunday afternoon are the record of something that already happened and is not still happening. What matters is which kind you have, and the shape, direction and location of the crack tell you most of it.

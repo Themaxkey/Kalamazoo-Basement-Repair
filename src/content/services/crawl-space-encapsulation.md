@@ -3,6 +3,9 @@ title: "Crawl Space Encapsulation in Kalamazoo, MI"
 seoTitle: "Crawl Space Encapsulation Kalamazoo, MI | Vapor Barrier & Dehumidifier"
 description: "Most Kalamazoo homes have basements, but some have crawl spaces. Sealing one properly: liner, vents, insulation and a dehumidifier. (269) 307-7363"
 order: 9
+heroAlt: "A crawl space lined with white vapor barrier across the floor and up the block piers, a dehumidifier running at the far end."
+hero: "crawl-space-encapsulation.webp"
+heroAlt: "A crawl space lined with white vapor barrier across the floor and up the block piers, a dehumidifier running at the far end."
 ---
 
 Most houses in this town have full basements, and that is not an accident. Southern Michigan's code frost depth is around 42 inches, so a footing has to go down more than three and a half feet regardless of what you build on top of it. Once the excavator is that deep, going the rest of the way to a full basement is barely more work — a few more feet of wall and a slab — and you get a whole floor of house for it. That is why basements are near-universal here and why crawl spaces are common in the South and comparatively rare in Kalamazoo.

@@ -5,6 +5,9 @@ description: "A Kalamazoo basement wall that leaks has a route water takes in. H
 tagline: "The wall is leaking"
 fixedBy: "interior-basement-waterproofing"
 order: 5
+heroAlt: "A bead of water on a block wall with white efflorescence staining spread around it."
+hero: "leaking-basement-wall.webp"
+heroAlt: "A bead of water on a block wall with white efflorescence staining spread around it."
 ---
 
 A leaking wall is better news than a seeping one, at least diagnostically. A leak has a route — a single opening water is traveling through — and a route can be found and closed. Damp spreading through the body of the masonry is a harder problem than water running from one identifiable point. So the first job is to find the point, and the second is to work out how high up it is, because that single fact changes the price by an order of magnitude.

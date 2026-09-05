@@ -3,6 +3,8 @@ title: "Exterior Basement Waterproofing in Kalamazoo, MI"
 seoTitle: "Exterior Basement Waterproofing Kalamazoo, MI | Excavation & Membrane"
 description: "Excavating to the footing stops water at the wall instead of managing it. It costs two to three times interior work and wrecks the yard. (269) 307-7363"
 order: 3
+hero: "exterior-basement-waterproofing.webp"
+heroAlt: "An excavated trench along a house foundation with black dimple membrane fixed over the coated wall and spoil heaped alongside."
 ---
 
 Exterior waterproofing is the version most people picture when they imagine the job being done properly. The soil is excavated away from the foundation wall all the way down to the footing — around seven feet on a full Kalamazoo basement, sometimes more. The wall is cleaned and any failed parging or open joint is repaired. A waterproof membrane is applied to the outside face. A new perforated footing drain is laid in washed stone and wrapped in filter fabric, and the trench is backfilled, ideally with free-draining material rather than the clay that came out of it.

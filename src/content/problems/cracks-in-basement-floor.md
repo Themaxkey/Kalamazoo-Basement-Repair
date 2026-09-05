@@ -5,6 +5,9 @@ description: "Most Kalamazoo basement floor cracks are cosmetic. How to tell tho
 tagline: "Cracks in the floor"
 fixedBy: "foundation-crack-repair"
 order: 4
+heroAlt: "A thin crack running across a bare concrete basement floor."
+hero: "cracks-in-basement-floor.webp"
+heroAlt: "A thin crack running across a bare concrete basement floor."
 ---
 
 The most useful thing to know about basement floor cracks is that the floor is not holding your house up. A basement slab is typically four inches of concrete poured over gravel after the walls and footings are already in place. It carries itself, the furnace, and whatever you put on it. It is not tied into the structure and it is not load-bearing, which is why a crack in it means something very different from a crack in a wall. Nearly every basement slab in Kalamazoo has cracks in it. Most of them are the concrete's own business and nothing to do with the foundation.

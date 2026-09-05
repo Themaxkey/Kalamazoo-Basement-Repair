@@ -3,6 +3,8 @@ title: "Basement Repair in Richland, MI"
 seoTitle: "Basement Repair Richland, MI | Waterproofing Near Gull Lake"
 description: "Basement waterproofing and foundation repair in Richland and the Gull Lake area, MI. Free inspection, honest diagnosis. (269) 307-7363."
 town: "Richland"
+hero: "town-richland.webp"
+heroAlt: "A lakeside lane in Richland with cottages among bare trees and water standing in the roadside ditch."
 ---
 
 Richland and the Gull Lake shoreline present a mix you do not get in the flatter parts of the county: sloping lots, walkout and daylight basements, and a lake-influenced water table on the properties nearest the water.

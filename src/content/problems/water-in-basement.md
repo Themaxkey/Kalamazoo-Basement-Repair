@@ -5,6 +5,8 @@ description: "Water on a Kalamazoo basement floor: what the entry point tells yo
 tagline: "Water on the floor"
 fixedBy: "basement-waterproofing"
 order: 1
+hero: "water-in-basement.webp"
+heroAlt: "Standing water spread across a basement floor, a cardboard box sitting in it against a stained block wall."
 ---
 
 Water does not soak through a foundation wall the way it soaks through a sponge. It arrives by a route — a joint, a crack, a gap around a pipe, a window well, a failed pump. Concrete and block are porous enough to pass damp, but a puddle on the floor means bulk water has found an actual opening. The first useful thing you can do is work out where the route is, because the answer separates a few hundred dollars of outside work from five figures of interior drainage, and nobody can tell you which one you have without looking at the pattern.

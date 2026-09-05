@@ -3,6 +3,9 @@ title: "Basement Waterproofing in Kalamazoo, MI"
 seoTitle: "Basement Waterproofing Kalamazoo, MI | Free Inspection"
 description: "Waterproofing is three separate jobs and most Kalamazoo homes need only one of them. What each one does, what it costs, and how to tell. (269) 307-7363"
 order: 1
+heroAlt: "An interior drain trench open along a basement wall with pipe and gravel laid and tools resting on the cut slab."
+hero: "basement-waterproofing.webp"
+heroAlt: "An interior drain trench open along a basement wall with pipe and gravel laid and tools resting on the cut slab."
 ---
 
 "Waterproofing" is not one job. It is at least three, they cost wildly different amounts, and they solve different problems. One of them keeps water away from the house before it ever reaches the foundation. One of them manages water that has already arrived at the wall and gets it back out. One of them seals a specific opening that water is coming through. A contractor who installs interior drainage for a living will tend to describe waterproofing as interior drainage, and a contractor who digs will describe it as digging. Neither is lying. But the result is that homeowners are routinely quoted the most expensive of the three for a problem the cheapest one would have fixed.

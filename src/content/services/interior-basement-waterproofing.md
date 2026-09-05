@@ -3,6 +3,9 @@ title: "Interior Basement Waterproofing in Kalamazoo, MI"
 seoTitle: "Interior Basement Waterproofing Kalamazoo, MI | Drain Tile & Sump"
 description: "Interior drain tile manages water rather than stopping it, at half the cost of digging outside. When that trade is right for your house. (269) 307-7363"
 order: 2
+heroAlt: "Perforated drain pipe bedded in gravel in a trench cut along the base of a block basement wall, the floor part-restored."
+hero: "interior-basement-waterproofing.webp"
+heroAlt: "Perforated drain pipe bedded in gravel in a trench cut along the base of a block basement wall, the floor part-restored."
 ---
 
 Interior waterproofing is a drainage system installed from inside the basement. The perimeter of the concrete slab is broken out, perforated pipe is bedded in washed stone next to the footing, and everything the pipe collects is carried to a sump pit and pumped outside. Nobody digs up the yard. Nobody touches the landscaping. The work happens entirely within the walls of the house, which is why it costs roughly half of what exterior work costs and why it can be done in February when the ground outside is frozen solid.

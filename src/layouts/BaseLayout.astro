@@ -18,6 +18,23 @@ interface Props {
 
 const { seoTitle, description, pageType = 'page', serviceName, townName, noindex = false, faq } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+/**
+ * The home hero photo sits behind a translucent brand-colored scrim, and a
+ * translucent color needs its channels separately — you cannot put a hex into
+ * rgba() and set the alpha from CSS. So the palette is also emitted as bare
+ * "r, g, b" for the one place that needs it.
+ *
+ * Unlike the rest of the palette, this one required editing global.css. An
+ * rgba(15, 82, 87, .85) literal cannot be overridden by a custom property; the
+ * rule itself has to reference one. Those literals were Huntsville's teal, and
+ * they would have painted the Kalamazoo hero band teal the moment a home hero
+ * image was added — the same trap as the palette, one layer deeper.
+ */
+const rgbOf = (hex: string) => {
+  const n = parseInt(hex.replace('#', ''), 16);
+  return `${(n >> 16) & 255}, ${(n >> 8) & 255}, ${n & 255}`;
+};
 ---
 <!doctype html>
 <html lang="en-US">
@@ -72,6 +89,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
     */}
     <style is:inline set:html={`:root:root{
       --primary:${site.brand.primary};
+      --primary-rgb:${rgbOf(site.brand.primary)};
       --primary-dk:${site.brand.primaryDk};
       --red:${site.brand.red};
       --red-dk:${site.brand.redDk};

@@ -230,15 +230,15 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .hero.has-photo::before {
   content: ''; position: absolute; inset: 0; z-index: -1;
-  background: rgba(15, 82, 87, .85);
+  background: rgba(var(--primary-rgb, 49, 54, 63), .85);
 }
 @media (min-width: 900px) {
   .hero.has-photo::before {
     background: linear-gradient(100deg,
-      rgba(15, 82, 87, .93) 0%,
-      rgba(15, 82, 87, .90) 55%,
-      rgba(15, 82, 87, .62) 78%,
-      rgba(15, 82, 87, .55) 100%);
+      rgba(var(--primary-rgb, 49, 54, 63), .93) 0%,
+      rgba(var(--primary-rgb, 49, 54, 63), .90) 55%,
+      rgba(var(--primary-rgb, 49, 54, 63), .62) 78%,
+      rgba(var(--primary-rgb, 49, 54, 63), .55) 100%);
   }
 }
 /* If the photo fails to load the band keeps the solid brand color underneath,

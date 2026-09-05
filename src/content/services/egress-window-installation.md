@@ -3,6 +3,9 @@ title: "Egress Window Installation in Kalamazoo, MI"
 seoTitle: "Egress Window Installation Kalamazoo, MI | Code, Wells & Drainage"
 description: "A below-grade bedroom legally needs an escape opening. Sizes, wells, drainage into the sump, and what cutting a foundation wall costs. (269) 307-7363"
 order: 8
+heroAlt: "A basement egress window in a poured concrete wall opening into a corrugated steel window well with a gravel base."
+hero: "egress-window-installation.webp"
+heroAlt: "A basement egress window in a poured concrete wall opening into a corrugated steel window well with a gravel base."
 ---
 
 This is the one job on this site that is driven by law rather than by water. If a basement room is used for sleeping, the residential code requires an emergency escape and rescue opening from that room directly to the outside — a window a person can climb out of, and a firefighter in gear can climb in through, without a key or a tool. A basement bedroom without one is not a bedroom. It is a finished room that a home inspector will flag, an appraiser will not count, and an insurer may take a view on.

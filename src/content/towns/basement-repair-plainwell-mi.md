@@ -3,6 +3,8 @@ title: "Basement Repair in Plainwell, MI"
 seoTitle: "Basement Repair Plainwell, MI | Wet Basement Specialists"
 description: "Wet basement and foundation repair in Plainwell, MI. River-valley water table, honest diagnosis, free inspection. (269) 307-7363."
 town: "Plainwell"
+hero: "town-plainwell.webp"
+heroAlt: "A white two-story farmhouse at the edge of a bare field on an overcast winter day."
 ---
 
 Plainwell sits on the Kalamazoo River, and in a town built along a river the water table is the story. Most basement work here comes down to groundwater rather than anything structural.

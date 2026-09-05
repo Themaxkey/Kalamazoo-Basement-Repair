@@ -3,6 +3,9 @@ title: "Sump Pump Repair in Kalamazoo, MI"
 seoTitle: "Sump Pump Repair Kalamazoo, MI | Diagnosis Before Replacement"
 description: "Switch, impeller, check valve or a pump that was never big enough. How to tell which one failed, and when repair is money after bad. (269) 307-7363"
 order: 5
+heroAlt: "An old sump pump lifted out and set beside an open pit with standing water in the bottom."
+hero: "sump-pump-repair.webp"
+heroAlt: "An old sump pump lifted out and set beside an open pit with standing water in the bottom."
 ---
 
 A sump pump that is not doing its job is failing in one of a small number of specific ways, and they look almost identical from the top of the stairs. Water on the floor tells you the system did not keep up. It does not tell you whether the motor is dead, the float is jammed, the impeller is blocked, the check valve has failed, the discharge is frozen, or the pump was simply never large enough for the water this house produces. Those have prices ranging from nothing to several thousand dollars, so it is worth spending ten minutes on the diagnosis.

@@ -3,6 +3,9 @@ title: "Sump Pump Installation in Kalamazoo, MI"
 seoTitle: "Sump Pump Installation Kalamazoo, MI | Sizing, Discharge & Backup"
 description: "Sizing, discharge routing that survives a Michigan winter, and why battery backup matters when the storm that floods you also cuts the power. (269) 307-7363"
 order: 4
+heroAlt: "A sealed sump pit lid with a new PVC discharge line and check valve, set into fresh concrete."
+hero: "sump-pump-installation.webp"
+heroAlt: "A sealed sump pit lid with a new PVC discharge line and check valve, set into fresh concrete."
 ---
 
 A sump pump is a pit, a pump, a float switch, a check valve and a pipe to the outside. That is the entire machine. Almost everything that goes wrong with one is a decision made at installation rather than a defect in the pump, which is why it is worth understanding the four choices that matter: how big the pit is, how big the pump is, where the water goes, and what happens when the power stops.

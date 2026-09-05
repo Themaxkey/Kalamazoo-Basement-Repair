@@ -73,20 +73,36 @@ three sites had 104 markdown files between them containing zero.
    first and return `403` without it, so the endpoints fail closed, which is the
    behavior we want for routes nothing should be calling. The contact form is
    unaffected — it uses `/api/lead`, which only needs `RESEND_KEY`.
-5. **Add hero images.** No content file references one yet, so pages render
-   without them — correctly, but plainly.
-6. ~~Turn on Always Use HTTPS for the zone in Cloudflare, and add the www to
-   root redirect.~~ **Done, 27 Aug.** Always Use HTTPS is on, and a Redirect
-   Rule is deployed: `(http.host eq "www.kalamazoobasementrepair.com")` →
-   301 to `concat("https://kalamazoobasementrepair.com", http.request.uri.path)`
-   with query string preserved. Identical to the other three zones.
+5. ~~Add hero images.~~ **Done, 3 Sep 2026.** Twenty-nine heroes are in
+   `public/images/`, one per page, each named after the page slug that uses it
+   and wired in through `hero` and `heroAlt` in the frontmatter. Every problem,
+   service, town and standalone page has one. The seven FAQ entries and the two
+   legal pages deliberately do not.
 
-   **But the zone has no DNS records at all yet**, so nothing resolves and the
-   redirect rule cannot fire. When you deploy, bind **both** the root and the
-   `www` hostname to the Worker as custom domains. Binding only the root leaves
-   `www.kalamazoobasementrepair.com` dead rather than redirecting, and the rule
-   sits idle. Cloudflare warned about exactly this when the rule was deployed;
-   it was deployed anyway because the record appears on deploy.
+   Source PNGs were 78MB in total; they ship as WebP at 1600px wide for 5.0MB,
+   median page 179KB, heaviest 304KB. The hero is the LCP element on every page,
+   so that ratio is the difference between passing and failing Core Web Vitals
+   on a phone.
+
+   `.page-hero img` crops to `aspect-ratio: 2/1` with `object-fit: cover`, so a
+   16:9 source loses roughly 11% off the top and bottom. Keep the subject clear
+   of the vertical edges on any replacement.
+
+   No `heroCaption` is set anywhere, deliberately: these are illustrative
+   photographs, not this operator's own completed jobs, and captioning them as
+   job sites would be a lie.
+6. ~~Turn on Always Use HTTPS for the zone in Cloudflare, and add the www to
+   root redirect.~~ **Done, 27 Aug 2026.** Always Use HTTPS is on, and a
+   Redirect Rule is deployed: `(http.host eq "www.kalamazoobasementrepair.com")`
+   → 301 to
+   `concat("https://kalamazoobasementrepair.com", http.request.uri.path)` with
+   the query string preserved. Identical to the other three zones.
+
+   The rule was deployed before the zone had any DNS records, so it sat idle and
+   Cloudflare warned about exactly that. Both the root and the `www` hostname
+   were bound to the Worker as custom domains on deploy, which created the
+   records and armed the rule. Binding only the root would have left
+   `www.kalamazoobasementrepair.com` dead rather than redirecting.
 
 ## Checks
 

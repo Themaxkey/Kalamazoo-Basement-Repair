@@ -5,6 +5,9 @@ description: "Damp spreading through a Kalamazoo basement wall: seepage, condens
 tagline: "Damp coming through the wall"
 fixedBy: "interior-basement-waterproofing"
 order: 3
+heroAlt: "Water running down a damp basement wall corner and pooling where the wall meets the floor."
+hero: "water-seeping-through-basement-wall.webp"
+heroAlt: "Water running down a damp basement wall corner and pooling where the wall meets the floor."
 ---
 
 Seepage is different from a leak, and the difference is worth getting straight before anyone quotes you. A leak has a source you can point at — a crack, a pipe penetration, a gap at a window. Seepage is water moving through the body of the wall itself, so it shows up as a darkened area that spreads rather than a stream that runs. It usually appears low down, often at the same height as the outside soil is wet to, and it comes and goes with the weather.
