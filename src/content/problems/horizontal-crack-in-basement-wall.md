@@ -5,7 +5,6 @@ description: "A horizontal crack in a Kalamazoo basement wall is a load problem,
 tagline: "A horizontal crack"
 fixedBy: "basement-wall-repair"
 order: 6
-heroAlt: "A close view of a concrete block wall with a fine horizontal crack running along the mortar joint."
 hero: "horizontal-crack-in-basement-wall.webp"
 heroAlt: "A close view of a concrete block wall with a fine horizontal crack running along the mortar joint."
 ---

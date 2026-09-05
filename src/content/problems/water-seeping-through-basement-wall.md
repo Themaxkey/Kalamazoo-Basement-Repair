@@ -5,7 +5,6 @@ description: "Damp spreading through a Kalamazoo basement wall: seepage, condens
 tagline: "Damp coming through the wall"
 fixedBy: "interior-basement-waterproofing"
 order: 3
-heroAlt: "Water running down a damp basement wall corner and pooling where the wall meets the floor."
 hero: "water-seeping-through-basement-wall.webp"
 heroAlt: "Water running down a damp basement wall corner and pooling where the wall meets the floor."
 ---

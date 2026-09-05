@@ -5,7 +5,6 @@ description: "A musty Kalamazoo basement always means something down there is da
 tagline: "It smells down there"
 fixedBy: "basement-waterproofing"
 order: 7
-heroAlt: "A dim unfinished basement with wooden shelving and cardboard boxes against a block wall stained dark along the base."
 hero: "musty-smell-in-basement.webp"
 heroAlt: "A dim unfinished basement with wooden shelving and cardboard boxes against a block wall stained dark along the base."
 ---

@@ -5,7 +5,6 @@ description: "A Kalamazoo basement wall that leaks has a route water takes in. H
 tagline: "The wall is leaking"
 fixedBy: "interior-basement-waterproofing"
 order: 5
-heroAlt: "A bead of water on a block wall with white efflorescence staining spread around it."
 hero: "leaking-basement-wall.webp"
 heroAlt: "A bead of water on a block wall with white efflorescence staining spread around it."
 ---

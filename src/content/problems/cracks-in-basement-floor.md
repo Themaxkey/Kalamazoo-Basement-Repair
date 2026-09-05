@@ -5,7 +5,6 @@ description: "Most Kalamazoo basement floor cracks are cosmetic. How to tell tho
 tagline: "Cracks in the floor"
 fixedBy: "foundation-crack-repair"
 order: 4
-heroAlt: "A thin crack running across a bare concrete basement floor."
 hero: "cracks-in-basement-floor.webp"
 heroAlt: "A thin crack running across a bare concrete basement floor."
 ---

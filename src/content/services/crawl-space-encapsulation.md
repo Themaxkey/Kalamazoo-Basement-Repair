@@ -3,7 +3,6 @@ title: "Crawl Space Encapsulation in Kalamazoo, MI"
 seoTitle: "Crawl Space Encapsulation Kalamazoo, MI | Vapor Barrier & Dehumidifier"
 description: "Most Kalamazoo homes have basements, but some have crawl spaces. Sealing one properly: liner, vents, insulation and a dehumidifier. (269) 307-7363"
 order: 9
-heroAlt: "A crawl space lined with white vapor barrier across the floor and up the block piers, a dehumidifier running at the far end."
 hero: "crawl-space-encapsulation.webp"
 heroAlt: "A crawl space lined with white vapor barrier across the floor and up the block piers, a dehumidifier running at the far end."
 ---

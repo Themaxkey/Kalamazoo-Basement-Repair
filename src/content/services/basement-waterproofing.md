@@ -3,7 +3,6 @@ title: "Basement Waterproofing in Kalamazoo, MI"
 seoTitle: "Basement Waterproofing Kalamazoo, MI | Free Inspection"
 description: "Waterproofing is three separate jobs and most Kalamazoo homes need only one of them. What each one does, what it costs, and how to tell. (269) 307-7363"
 order: 1
-heroAlt: "An interior drain trench open along a basement wall with pipe and gravel laid and tools resting on the cut slab."
 hero: "basement-waterproofing.webp"
 heroAlt: "An interior drain trench open along a basement wall with pipe and gravel laid and tools resting on the cut slab."
 ---

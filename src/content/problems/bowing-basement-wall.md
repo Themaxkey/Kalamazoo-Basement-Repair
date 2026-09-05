@@ -5,7 +5,6 @@ description: "A bowing Kalamazoo basement wall is a structural failure in progre
 tagline: "The wall is leaning in"
 fixedBy: "basement-wall-repair"
 order: 8
-heroAlt: "A block basement wall seen along its length, a horizontal crack running through one mortar course."
 hero: "bowing-basement-wall.webp"
 heroAlt: "A block basement wall seen along its length under a bare bulb, a horizontal crack running through one mortar course."
 ---

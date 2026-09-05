@@ -5,7 +5,6 @@ description: "How to tell a harmless basement wall crack from a structural one i
 tagline: "A crack in the wall"
 fixedBy: "foundation-crack-repair"
 order: 2
-heroAlt: "A vertical crack in a poured concrete foundation wall with white mineral staining down both sides."
 hero: "basement-wall-crack-repair.webp"
 heroAlt: "A vertical crack in a poured concrete foundation wall with white mineral staining down both sides."
 ---
